@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Team Carousel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="team-section">
+    <h1 class="section-title">OUR TEAM</h1>
+
+    <div class="carousel-wrap">
+      <button class="nav prev" aria-label="Vorheriges Teammitglied">‹</button>
+
+      <div class="carousel">
+        <div class="carousel-track">
+          <article class="card" data-name="Sophie Meyer" data-role="DESIGNER">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=90" alt="Sophie Meyer">
+          </article>
+
+          <article class="card" data-name="Laura Stein" data-role="MARKETING">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=90" alt="Laura Stein">
+          </article>
+
+          <article class="card" data-name="Emily Kim" data-role="FOUNDER">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=90" alt="Emily Kim">
+          </article>
+
+          <article class="card" data-name="Daniel Weber" data-role="DEVELOPER">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=90" alt="Daniel Weber">
+          </article>
+
+          <article class="card" data-name="Jonas Keller" data-role="CREATIVE">
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=90" alt="Jonas Keller">
+          </article>
+        </div>
+      </div>
+
+      <button class="nav next" aria-label="Nächstes Teammitglied">›</button>
+    </div>
+
+    <div class="member-info">
+      <div class="line"></div>
+      <div>
+        <h2 id="memberName">Emily Kim</h2>
+        <p id="memberRole">FOUNDER</p>
+      </div>
+      <div class="line"></div>
+    </div>
+
+    <div class="dots" aria-label="Carousel Navigation"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
